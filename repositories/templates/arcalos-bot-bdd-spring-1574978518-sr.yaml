@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: arcalos-bot
+    provider: github
+    repository: bdd-spring-1574978518
+  name: arcalos-bot-bdd-spring-1574978518
+spec:
+  description: Imported application for arcalos-bot/bdd-spring-1574978518
+  httpCloneURL: https://github.com/arcalos-bot/bdd-spring-1574978518.git
+  org: arcalos-bot
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-spring-1574978518
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/arcalos-bot/bdd-spring-1574978518.git
